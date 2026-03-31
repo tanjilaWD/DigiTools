@@ -6,6 +6,7 @@ import Pricing from './components/pricing/Pricing'
 import Started from './components/started/Started'
 import Stats from './components/stats/Stats'
 import StartedCard from './components/ui/StartedCard'
+import Workflow from './components/workflow/Workflow'
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
      <Stats/>
      <Started/>
      <Pricing/>
+     <Workflow/>
     </>
   )
 }
